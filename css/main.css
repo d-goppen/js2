@@ -1,0 +1,70 @@
+:root {
+    --backgroundColor: #6597D8;
+    --mainTextColor: #353535;
+    --brandTextColor: #42556E;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.container {
+    margin: auto;
+    max-width: 900px;
+}
+
+header {
+    padding: .35rem;
+    border-bottom: 2px solid black;
+    text-align: right;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.product-item {
+    text-align: center;
+}
+
+.product-item h3 {
+    color: white;
+    text-shadow: 0px 0px 3px blue;
+}
+
+.product-item p::after {
+    content: " руб.";
+}
+
+.product-item img {
+    border-radius: 15%;
+}
+
+.btn-cart {
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    padding: .5em;
+    color: white;
+    font-weight: 700;
+}
+
+.btn-cart:hover {
+    text-shadow: 3px 3px 2px grey;
+}
+
+.by-btn {
+    padding: .5em;
+    border: none;
+    background-color: blue;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+}
+
+.by-btn:hover {
+    shadow: 0px 0px 5px blue;
+    text-shadow: 2px 2px 1px black;
+}
